@@ -267,12 +267,12 @@ class vars(object):
             button()
                 (
                     "Support",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                        url="https://t.me/kunjappansupport"
                 ),
             button()
                 (
                     "Updates",
-                        url="https://t.me/Mo_Tech_YT"
+                        url="https://t.me/kunjappansupportez"
                 )
         ],
         [
@@ -346,12 +346,12 @@ class vars(object):
             button()
                 (
                     "Support",
-                        url="https://t.me/Mo_Tech_YT"
+                        url="https://t.me/kunjappansupportez"
                 ),
             button()
                 (
                     "Source",
-                        url="https://t.me/+sv5flNs7yew1OTk1"
+                        url="https://t.me/kunjappansupport"
                 )
         ],
         [
@@ -363,7 +363,7 @@ class vars(object):
             button()
                 (
                     "Insta",
-                        url="https://www.instagram.com/mrk_yt_"
+                        url="https://www.instagram.com/the_psy_04"
                 )
         ],
         [
