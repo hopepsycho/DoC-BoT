@@ -1,11 +1,11 @@
 START_TXT = """
 Hello 👋 {mention} 
 
-I'm <b>{bot}</b> ✨ an advanced telegram Group management
+I'm <b>{bot}</b> ✨ an advanced telegram auto filter BoT
 
 I'm here to help you manage your groups! Hit /help to find out more about how to use me to my full potential..!
 
-Join <b><a href=http://t.me/Mo_Tech_YT>my news channel</a></b> to get information on all the latest updates
+Join <b><a href=http://t.me/kunjappansupportez>my news channel</a></b> to get information on all the latest updates
 """
 
 HELP_TXT = """
@@ -23,22 +23,20 @@ I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly 
 <b>All commands can be used with the following: [ / ]</b>
 """
 
-ABOUT_TXT = """
-[{name}](t.me/{username}) Was created on September 4, 2022
-We are currently developing this bot, using only the Pyrogram library.
-
-➾ Developers : Muhammed
-➾ Language : Python3
-➾ Framework : Pyrogram
-➾ Database : Mongo db
-"""
+ABOUT_TXT = """✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/king_of_psycho>KUNJAPPAN</a>
+✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
+✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
+✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
+✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 8080
+✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
 
 DONATE_TXT = """
 If you like this project of mine, you can donate by clicking on the given link
 
-Dev : [Muhammed](t.me/Pr0fess0r_99)
-Paytm : [Click Here](https://p.paytm.me/xCTH/7yzmtgie)
-  or UPI `motech8129@okaxis`
+Dev : [PsY_04](t.me/king_of_psycho)
+Paytm : [Click Here](https://buymeacoffee.com/Fazpsy)
+  or UPI `next edition`
 """
 
 STATUS_TXT = """
