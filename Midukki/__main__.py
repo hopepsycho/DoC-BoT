@@ -56,7 +56,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                     return
             except UserNotParticipant:
                 mrk, file_id, grp_id = message.text.split("_-_")
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://telegra.ph/file/bb00c3091bf821d9c766c.jpg"]
                 invite_link = await client.create_chat_invite_link(Configs.AUTH_CHANNEL)
                 pr0fess0r_99 = [
                     [
@@ -72,7 +72,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                 return
             except FloodWait as x:
                 await asyncio.sleep(x.value)
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://telegra.ph/file/bb00c3091bf821d9c766c.jpg"]
                 invite_link = await client.create_chat_invite_link(Configs.AUTH_CHANNEL)
                 pr0fess0r_99 = [
                     [
@@ -88,7 +88,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                 return    
             except UserIsBlocked:
                 await message.reply(f"{mention} : blocked the bot")
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://telegra.ph/file/bb00c3091bf821d9c766c.jpg"]
                 invite_link = await client.create_chat_invite_link(Configs.AUTH_CHANNEL)
                 pr0fess0r_99 = [
                     [
@@ -104,7 +104,7 @@ async def start_command(client: Midukki_RoboT, message: message()):
                 return
             except PeerIdInvalid:
                 await message.reply(f"{mention} : user id invalid")
-                FORCES = ["https://telegra.ph/file/b2acb2586995d0e107760.jpg"]
+                FORCES = ["https://telegra.ph/file/bb00c3091bf821d9c766c.jpg"]
                 invite_link = await client.create_chat_invite_link(Configs.AUTH_CHANNEL)
                 pr0fess0r_99 = [
                     [
