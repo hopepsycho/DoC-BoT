@@ -1,5 +1,5 @@
 {
-    "name": "Midukki-RoBoT",
+    "name": "DoC-BoT",
     "description": "Midukki-RoBoT is an all in one group management bot made for managing your group effectively with some advance security tools & Suit For All Your Needs ❤️",
     "keywords": [
       "telegram",
@@ -10,8 +10,8 @@
       "mo",
       "tech"
     ],
-    "website": "https//telegram.dog/Midukki_RoBoT",
-    "repository": "https://github.com/PR0FESS0R-99/Midukki-RoBoT",
+    "website": "https//telegram.dog/lucifer_filter_bot",
+    "repository": "https://github.com/hopepsycho/DoC-BoT",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",
