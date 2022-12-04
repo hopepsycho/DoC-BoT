@@ -669,7 +669,7 @@ async def get_result_file(client, query):
     try:
         if Configs.AUTH_CHANNEL != 1:
             if Configs.AUTH_CHANNEL and not await client.is_subscribed(client, query):
-                await query.answer(url=f"https://t.me/{Bots.BOT_USERNAME}?start=Midukki_-_{file_id}")
+                await query.answer(url=f"https://t.me/Lucifer_filter_bot?start=Lucifer_-_{file_id}")
                 return
             else:     
                 await client.send_cached_media(
@@ -688,9 +688,9 @@ async def get_result_file(client, query):
     except UserIsBlocked:
         await query.answer('Unblock the bot mahn !', show_alert=True)
     except PeerIdInvalid:
-        await query.answer(url=f"https://t.me/{Bots.BOT_USERNAME}?start=Midukki_-_{file_id}")
+        await query.answer(url=f"https://t.me/Lucifer_filter_bot?start=Lucifer_-_{file_id}")
     except Exception as e:
-        await query.answer(url=f"https://t.me/{Bots.BOT_USERNAME}?start=Midukki_-_{file_id}")
+        await query.answer(url=f"https://t.me/Lucifer_filter_bot?start=Lucifer_-_{file_id}")
 
 async def auto_filters(client: Midukki_RoboT, message: message()):
 
