@@ -24,13 +24,13 @@ I Can Guide You Through All Of <b>{bot}</b>'s Cool Features And How To Properly 
 """
 
 ABOUT_TXT = """
-✯ 𝙼𝚈 𝙽𝙰𝙼𝙴: {}
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁: <a href=https://t.me/king_of_psycho>KUNJAPPAN</a>
-✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈: 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
-✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴: 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
-✯ 𝙳𝙰𝚃𝙰 𝙱𝙰𝚂𝙴: 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
-✯ 𝙱𝙾𝚃 𝚂𝙴𝚁𝚅𝙴𝚁: 8080
-✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: v2.0.2 [ 𝙱𝙴𝚃𝙰 ]"""
+[{name}](t.me/{username}) Was created on September 0, 2000
+We are currently developing this bot, using only the Pyrogram library.
+➾ Developers : PsY_04
+➾ Language : Python3
+➾ Framework : Pyrogram
+➾ Database : Mongo db
+"""
 
 DONATE_TXT = """
 If you like this project of mine, you can donate by clicking on the given link
