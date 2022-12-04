@@ -44,17 +44,17 @@ class Configs(object):
     # bot information   
     COMMAND_PREFIXES = environ.get("COMMAND_PREFIXES", "/")
     if environ.get("BOT_PICS"):
-        START_PICS = (environ.get("BOT_PICS", "https://telegra.ph/file/5ad2c57ae74bafb6efec1.jpg")).split()
+        START_PICS = (environ.get("BOT_PICS", "https://telegra.ph/file/bb00c3091bf821d9c766c.jpg")).split()
     START_MESSAGE = environ.get("START_MESSAGE", START_TXT)
 
     # MongoDB information
-    DATABASE_NAME = environ.get("DATABASE_NAME", "Muhammed")
+    DATABASE_NAME = environ.get("DATABASE_NAME", "Nobi")
     DATABASE_URL = environ.get("DATABASE_URL", None)
     COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
     # Groups & Channels
     LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-    SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/Mo_Tech_YT')
+    SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/kunjappansupport')
     CHANNELS = [int(ch) if find.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
     AUTH_CHANNEL = int(environ.get('FORCE_SUB', 1))
 
@@ -71,10 +71,10 @@ class Configs(object):
     WEB_API = environ.get("ADS_WEB_API")
 
     # other
-    DONATE_LINKS = environ.get("DONATION_LINK", "https://p.paytm.me/xCTH/7yzmtgie")
+    DONATE_LINKS = environ.get("DONATION_LINK", "https://buymeacoffee.com/psyfaz")
     LOADING_SYMBOL = bool(environ.get("LOADING_MODE", True))
-    LOADING_A = environ.get("LOADING_SYMBOL_A", "⚪️")
-    LOADING_B = environ.get("LOADING_SYMBOL_B", "⚫️")
+    LOADING_A = environ.get("LOADING_SYMBOL_A", "🌧")
+    LOADING_B = environ.get("LOADING_SYMBOL_B", "⛈")
     STOP_BOT = bool(environ.get("DEFAULT", False))
     PORT_CODE = environ.get("PORT", "8080")
     broadcast_ids = {} # don't change this..!!  
