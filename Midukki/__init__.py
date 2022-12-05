@@ -39,7 +39,7 @@ class Customize(object):
 
 class Configs(object):
     # admins id
-    ADMINS_ID = [int(admin) if find.search(admin) else admin for admin in environ.get('ADMINS_ID', '5601313788').split()]
+    ADMINS_ID = [int(admin) if find.search(admin) else admin for admin in environ.get('ADMINS_ID', '682307346').split()]
 
     # bot information   
     COMMAND_PREFIXES = environ.get("COMMAND_PREFIXES", "/")
@@ -71,7 +71,7 @@ class Configs(object):
     WEB_API = environ.get("ADS_WEB_API")
 
     # other
-    DONATE_LINKS = environ.get("DONATION_LINK", "https://buymeacoffee.com/psyfaz")
+    DONATE_LINKS = environ.get("DONATION_LINK", "https://buymeacoffee.com/Fazpsy")
     LOADING_SYMBOL = bool(environ.get("LOADING_MODE", True))
     LOADING_A = environ.get("LOADING_SYMBOL_A", "🌧")
     LOADING_B = environ.get("LOADING_SYMBOL_B", "⛈")
